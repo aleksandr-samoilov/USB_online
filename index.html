@@ -1,0 +1,28 @@
+<html>
+
+<header>
+     <link rel="stylesheet" href="/pr/terminal.css">
+</header>
+
+
+<body>
+<div class="main">
+    Install script is included with all options.
+  <form action="/cgi-bin/pr_launcher.py" method="POST">
+      <div>
+        <br><input id="checkbox1" type="checkbox" name="everything" value="1"><!--checked="checked"--><label for="checkbox1"><span></span>Copy EVERYTHING</label>
+      </div>
+      <div>
+        <input id="checkbox2" type="checkbox" name="terminal" value="2"><label for="checkbox2"><span></span>Terminal only</label>
+      </div>
+      <div>
+        <input id="checkbox3" type="checkbox" name="cashier" value="3"><label for="checkbox3"><span></span>Cashier only</label>
+      </div>
+      <div>
+        <input id="checkbox4" type="checkbox" name="mediastation" value="3"><label for="checkbox3"><span></span>Mediastation only</label>
+      </div>
+    <br><input type="submit" value="Engage"><br>
+  </form>
+</div>
+</body>
+</html>
