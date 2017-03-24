@@ -3,7 +3,6 @@ import distutils.dir_util
 import distutils.file_util
 from fnmatch import fnmatch
 import win32file
-import sys
 import glob
 
 # find the letter of USB

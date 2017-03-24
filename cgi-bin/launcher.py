@@ -1,9 +1,6 @@
 #!"C:/Python/python.exe"
 import win32file
-import distutils.dir_util
-import distutils.file_util
 import cgi
-import cgitb
 import pr
 import sys
 
